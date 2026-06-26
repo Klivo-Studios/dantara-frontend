@@ -1,3 +1,4 @@
+import logo from "../assets/logo.png"; 
 import { Link } from "react-router-dom";
 
 function Navbar() {
@@ -5,9 +6,14 @@ function Navbar() {
     <nav className="flex justify-between items-center px-8 py-4 bg-white shadow-md sticky top-0 z-50">
 
       {/* Logo */}
-      <h2 className="text-2xl font-bold text-[#D26C8D]">
-        Dantara Dental Clinic
-      </h2>
+      <Link to="/" className="flex items-center gap-3">
+  <img
+    src={logo}
+    alt="Dantara Dental Clinic"
+    className="w-25 h-25 object-contain"
+  />
+
+</Link>
 
       {/* Navigation Links */}
       <ul className="flex items-center gap-8 font-medium text-gray-700">
