@@ -18,7 +18,7 @@ function Services() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="bg-pink-300 text-white text-center py-20">
+      <section className="bg-[#D26C8D] text-white text-center py-20">
         <h1 className="text-4xl font-bold">
           Caring for your teeth?
         </h1>
