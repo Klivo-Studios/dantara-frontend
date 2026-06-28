@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { ChevronUp, ChevronDown } from "lucide-react";
 
 const faqs = [
   {
@@ -54,8 +55,8 @@ function FAQ() {
             >
               {faq.question}
 
-              <span className="text-pink-600 text-2xl">
-                {openIndex === index ? "∧" : "∨"}
+              <span className="text-pink-600">
+                {openIndex === index ? <ChevronUp size={24} /> : <ChevronDown size={24} />}
               </span>
             </button>
 

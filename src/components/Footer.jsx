@@ -1,3 +1,6 @@
+import { Phone, Mail } from "lucide-react";
+import { FaInstagram, FaFacebookF, FaTiktok } from "react-icons/fa6";
+
 function Footer() {
   return (
     <footer style={{ backgroundColor: "#D26C8D" }} className="text-white pt-14 pb-6 mt-20">
@@ -20,12 +23,12 @@ function Footer() {
             Contact
           </h3>
 
-          <p className="text-sm text-white/90">
-            📞 +977-9800000000
+          <p className="text-sm text-white/90 flex items-center gap-2">
+            <Phone size={16} /> +977-9800000000
           </p>
 
-          <p className="text-sm text-white/90 mt-2">
-            📧 dantara.dent@gmail.com
+          <p className="text-sm text-white/90 mt-2 flex items-center gap-2">
+            <Mail size={16} /> dantara.dent@gmail.com
           </p>
         </div>
 
@@ -36,9 +39,9 @@ function Footer() {
           </h3>
 
           <div className="flex gap-4 text-xl">
-            <span className="cursor-pointer hover:scale-110 transition">📸</span>
-            <span className="cursor-pointer hover:scale-110 transition">🌐</span>
-            <span className="cursor-pointer hover:scale-110 transition">💬</span>
+            <a href="#" aria-label="Instagram" className="cursor-pointer hover:scale-110 transition"><FaInstagram /></a>
+            <a href="#" aria-label="Facebook" className="cursor-pointer hover:scale-110 transition"><FaFacebookF /></a>
+            <a href="#" aria-label="TikTok" className="cursor-pointer hover:scale-110 transition"><FaTiktok /></a>
           </div>
         </div>
 

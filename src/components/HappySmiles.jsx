@@ -1,3 +1,5 @@
+import smileVector from "../assets/smile-vector.svg";
+
 function HappySmiles() {
   return (
     <section className="py-20">
@@ -11,8 +13,12 @@ function HappySmiles() {
           Happy Smiles
         </h3>
 
-        <div className="mt-8 flex justify-center">
-          <div className="w-64 h-32 border-b-8 border-pink-600 rounded-b-full"></div>
+        <div className="mt-2 flex justify-center">
+          <img
+            src={smileVector}
+            alt="Happy smile"
+            className="w-[36rem] md:w-[52rem] max-w-full h-auto"
+          />
         </div>
 
       </div>

@@ -18,9 +18,12 @@ function Hero() {
           Professional dental care with experienced dentists and modern technology.
         </p>
 
-        <button className="mt-8 bg-pink-600 text-white px-6 py-3 rounded-lg">
-          Book Now
-        </button>
+        <a
+          href="tel:+9779800000000"
+          className="inline-block mt-8 bg-pink-600 hover:bg-pink-700 text-white px-6 py-3 rounded-lg font-medium transition-colors"
+        >
+          Make a Call
+        </a>
       </div>
     </section>
   );

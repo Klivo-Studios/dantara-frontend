@@ -1,3 +1,5 @@
+import { CheckCircle2 } from "lucide-react";
+
 function Benefits() {
   return (
     <section className="py-16">
@@ -9,15 +11,15 @@ function Benefits() {
           <div>
             <ul className="space-y-4 text-2xl font-semibold">
 
-              <li>✅ Teeth Whitening</li>
+              <li className="flex items-center gap-3"><CheckCircle2 className="text-green-500 shrink-0" /> Teeth Whitening</li>
 
-              <li>✅ Stain Removal</li>
+              <li className="flex items-center gap-3"><CheckCircle2 className="text-green-500 shrink-0" /> Stain Removal</li>
 
-              <li>✅ Natural-Looking Results</li>
+              <li className="flex items-center gap-3"><CheckCircle2 className="text-green-500 shrink-0" /> Natural-Looking Results</li>
 
-              <li>✅ Safe & Painless Procedure</li>
+              <li className="flex items-center gap-3"><CheckCircle2 className="text-green-500 shrink-0" /> Safe & Painless Procedure</li>
 
-              <li>✅ Performed by Experienced Dentists</li>
+              <li className="flex items-center gap-3"><CheckCircle2 className="text-green-500 shrink-0" /> Performed by Experienced Dentists</li>
 
             </ul>
           </div>

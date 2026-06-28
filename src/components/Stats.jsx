@@ -1,3 +1,5 @@
+import { Star } from "lucide-react";
+
 function Stats() {
   return (
     <section className="py-12">
@@ -20,7 +22,9 @@ function Stats() {
           </div>
 
           <div>
-            <h2 className="text-4xl font-bold text-pink-600">4.9★</h2>
+            <h2 className="text-4xl font-bold text-pink-600 flex items-center justify-center gap-1">
+              4.9 <Star className="fill-pink-600 text-pink-600" size={28} />
+            </h2>
             <p>Patient Rating</p>
           </div>
 
