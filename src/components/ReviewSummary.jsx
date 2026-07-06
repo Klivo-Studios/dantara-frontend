@@ -1,14 +1,4 @@
-import { Star } from "lucide-react";
-
 function ReviewSummary() {
-  const Stars = ({ count }) => (
-    <div className="flex text-yellow-400">
-      {Array.from({ length: count }).map((_, i) => (
-        <Star key={i} size={20} className="fill-yellow-400 text-yellow-400" />
-      ))}
-    </div>
-  );
-
   return (
     <section className="py-16">
       <div className="max-w-5xl mx-auto px-6">
@@ -25,21 +15,21 @@ function ReviewSummary() {
             <div className="space-y-4">
 
               <div>
-                <Stars count={5} />
+                <p>⭐⭐⭐⭐⭐</p>
                 <div className="bg-gray-200 h-3 rounded-full mt-2">
                   <div className="bg-yellow-400 h-3 rounded-full w-full"></div>
                 </div>
               </div>
 
               <div>
-                <Stars count={4} />
+                <p>⭐⭐⭐⭐</p>
                 <div className="bg-gray-200 h-3 rounded-full mt-2">
                   <div className="bg-yellow-400 h-3 rounded-full w-4/5"></div>
                 </div>
               </div>
 
               <div>
-                <Stars count={3} />
+                <p>⭐⭐⭐</p>
                 <div className="bg-gray-200 h-3 rounded-full mt-2">
                   <div className="bg-yellow-400 h-3 rounded-full w-3/5"></div>
                 </div>
@@ -54,8 +44,8 @@ function ReviewSummary() {
                 4.9
               </h3>
 
-              <p className="text-yellow-500 text-2xl mt-3 flex justify-center">
-                <Stars count={5} />
+              <p className="text-yellow-500 text-2xl mt-3">
+                ⭐⭐⭐⭐⭐
               </p>
 
               <p className="mt-4 text-gray-600">

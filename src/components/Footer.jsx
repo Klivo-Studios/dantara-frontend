@@ -1,47 +1,54 @@
-import { Phone, Mail } from "lucide-react";
-import { FaInstagram, FaFacebookF, FaTiktok } from "react-icons/fa6";
+import {
+  FaInstagram,
+  FaFacebook,
+  FaWhatsapp,
+  FaEnvelope,
+  FaPhoneAlt,
+  FaStar,
+  FaCheckCircle,
+} from "react-icons/fa";
 
 function Footer() {
   return (
     <footer style={{ backgroundColor: "#D26C8D" }} className="text-white pt-14 pb-6 mt-20">
       
-      <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-10">
+      <div className="max-w-8xl mx-auto px-6 grid md:grid-cols-3 gap-10">
 
         {/* Left - Brand */}
         <div>
-          <h2 className="text-2xl font-bold">
+          <h2 className="text-4xl font-bold grid place-items-center">
             Dantara Dental Clinic
           </h2>
-          <p className="mt-3 text-sm text-white/90">
+          <p className="mt-3 text-2xl text-white/90 grid place-items-center">
             Lalitpur, Kathmandu
           </p>
         </div>
 
         {/* Middle - Contact */}
         <div>
-          <h3 className="text-lg font-semibold mb-3">
+          <h3 className="text-2xl font-semibold mb-5 text-center">
             Contact
           </h3>
 
-          <p className="text-sm text-white/90 flex items-center gap-2">
-            <Phone size={16} /> +977-9800000000
+          <p className="flex items-center justify-center gap-3 text-2xl text-white/90">
+            <FaPhoneAlt/>+977-9800000000
           </p>
 
-          <p className="text-sm text-white/90 mt-2 flex items-center gap-2">
-            <Mail size={16} /> dantara.dent@gmail.com
+          <p className="flex items-center justify-center gap-3 text-2xl text-white/90 mt-2">
+            <FaEnvelope/>dantara.dent@gmail.com
           </p>
         </div>
 
         {/* Right - Social */}
         <div>
-          <h3 className="text-lg font-semibold mb-3">
+          <h3 className="text-2xl font-semibold mb-5 text-center">
             Follow Us
           </h3>
 
-          <div className="flex gap-4 text-xl">
-            <a href="#" aria-label="Instagram" className="cursor-pointer hover:scale-110 transition"><FaInstagram /></a>
-            <a href="#" aria-label="Facebook" className="cursor-pointer hover:scale-110 transition"><FaFacebookF /></a>
-            <a href="#" aria-label="TikTok" className="cursor-pointer hover:scale-110 transition"><FaTiktok /></a>
+          <div className="flex justify-center items-center gap-6 text-2xl">
+            <span className="cursor-pointer hover:scale-110 transition"><FaInstagram /></span>
+            <span className="cursor-pointer hover:scale-110 transition"><FaFacebook /></span>
+            <span className="cursor-pointer hover:scale-110 transition"><FaWhatsapp /></span>
           </div>
         </div>
 
