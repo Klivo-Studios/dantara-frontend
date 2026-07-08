@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Soft Toothbrush",
+    "price": 250,
+    "category": "Toothbrush",
+    "description": "Soft bristle toothbrush for daily use.",
+    "stock": 50,
+    "inStock": true,
+    "image": "toothbrush.jpg"
+  },
+  {
+    "name": "Whitening Toothpaste",
+    "price": 180,
+    "category": "Toothpaste",
+    "description": "Fluoride toothpaste for cleaner and brighter teeth.",
+    "stock": 80,
+    "inStock": true,
+    "image": "toothpaste.jpg"
+  },
+  {
+    "name": "Fresh Mint Mouthwash",
+    "price": 320,
+    "category": "Mouthwash",
+    "description": "Kills germs and keeps breath fresh for hours.",
+    "stock": 40,
+    "inStock": true,
+    "image": "mouthwash.jpg"
+  },
+  {
+    "name": "Orthodontic Braces Kit",
+    "price": 850,
+    "category": "Orthodontics",
+    "description": "Complete cleaning kit for braces.",
+    "stock": 25,
+    "inStock": true,
+    "image": "braceskit.jpg"
+  },
+  {
+    "name": "Dental Floss",
+    "price": 120,
+    "category": "Floss",
+    "description": "Waxed dental floss for daily cleaning.",
+    "stock": 100,
+    "inStock": true,
+    "image": "floss.jpg"
+  },
+  {
+    "name": "Floss Picks",
+    "price": 150,
+    "category": "Floss",
+    "description": "Disposable floss picks for easy cleaning.",
+    "stock": 70,
+    "inStock": true,
+    "image": "flosspicks.jpg"
+  },
+  {
+    "name": "Disposable Dental Gloves",
+    "price": 450,
+    "category": "Safety",
+    "description": "Latex-free examination gloves.",
+    "stock": 120,
+    "inStock": true,
+    "image": "gloves.jpg"
+  },
+  {
+    "name": "Kids Toothbrush",
+    "price": 180,
+    "category": "Kids",
+    "description": "Extra-soft toothbrush specially designed for children.",
+    "stock": 60,
+    "inStock": true,
+    "image": "kidsbrush.jpg"
+  },
+  {
+    "name": "Kids Toothpaste",
+    "price": 160,
+    "category": "Kids",
+    "description": "Gentle fluoride toothpaste with fruity flavor.",
+    "stock": 65,
+    "inStock": true,
+    "image": "kidstoothpaste.jpg"
+  },
+  {
+    "name": "Disposable Face Mask",
+    "price": 200,
+    "category": "Safety",
+    "description": "Protective 3-layer disposable face masks.",
+    "stock": 150,
+    "inStock": true,
+    "image": "mask.jpg"
+  },
+  {
+    "name": "Oral Care Kit",
+    "price": 950,
+    "category": "Oral Care",
+    "description": "Complete oral hygiene starter kit.",
+    "stock": 35,
+    "inStock": true,
+    "image": "oralcare.jpg"
+  },
+  {
+    "name": "Tooth Pain Relief Gel",
+    "price": 280,
+    "category": "Medicine",
+    "description": "Fast-acting relief for toothache and gum pain.",
+    "stock": 45,
+    "inStock": true,
+    "image": "painrelief.jpg"
+  },
+  {
+    "name": "Dental Retainer Case",
+    "price": 350,
+    "category": "Orthodontics",
+    "description": "Protective storage case for retainers.",
+    "stock": 55,
+    "inStock": true,
+    "image": "retainer.jpg"
+  },
+  {
+    "name": "Tongue Cleaner",
+    "price": 130,
+    "category": "Oral Care",
+    "description": "Removes bacteria for fresher breath.",
+    "stock": 75,
+    "inStock": true,
+    "image": "tongue.jpg"
+  },
+  {
+    "name": "Travel Dental Kit",
+    "price": 550,
+    "category": "Travel",
+    "description": "Compact oral care kit for travel.",
+    "stock": 30,
+    "inStock": true,
+    "image": "travelkit.jpg"
+  }
+]
