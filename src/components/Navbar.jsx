@@ -7,13 +7,12 @@ function Navbar() {
     <nav className="flex justify-between items-center px-8 py-4 bg-white shadow-md sticky top-0 z-50">
 
       {/* Logo */}
-      <Link to="/" className="flex items-center gap-3">
         <img
           src={logo}
           alt="Dantara Dental Clinic"
           className="w-25 h-25 object-contain"
         />
-      </Link>
+
 
       {/* Navigation Links */}
       <ul className="flex items-center gap-8 font-medium text-gray-700">
