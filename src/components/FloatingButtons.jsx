@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import {LucidePhone, Calendar1Icon} from "lucide-react";
+
 function FloatingButtons() {
   return (
     <div className="fixed bottom-6 right-6 flex flex-col gap-3 z-50">
@@ -5,17 +8,17 @@ function FloatingButtons() {
       {/* Call Button */}
       <a
         href="tel:+9779800000000"
-        className="bg-pink-600 hover:bg-pink-700 text-white px-5 py-3 rounded-full shadow-lg flex items-center gap-2 transition"
+        className="bg-pink-600 hover:bg-pink-700 text-white p-4 rounded-full shadow-lg transition"
       >
-        Make Call
+        <LucidePhone className="w-5 h-5"/> 
       </a>
 
       {/* Book Button */}
       <a
-        href="#book"
-        className="bg-pink-600 hover:bg-pink-700 text-white px-5 py-3 rounded-full shadow-lg flex items-center gap-2 transition"
+        href="/contact"
+        className="bg-pink-600 hover:bg-pink-700 text-white p-4 rounded-full shadow-lg transition"
       >
-        Book Now 
+        <Calendar1Icon className="w-5 h-5 justify-center" />
       </a>
 
     </div>
